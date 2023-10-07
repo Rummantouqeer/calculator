@@ -1,0 +1,27 @@
+{
+  "name": "rumman-calculator-cli",
+  "version": "1.5.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "rumman-calculator-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.5.9",
+    "inquirer": "^9.2.10"
+  },
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "node-banner": "^1.4.0"
+  }
+}
